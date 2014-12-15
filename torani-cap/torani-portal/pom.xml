@@ -116,6 +116,13 @@
                     </systemProperties>
                     <useTestClasspath>true</useTestClasspath>
 
+                    <httpConnector>
+                        <port>8082</port>
+                    </httpConnector>
+
+                    <stopKey>stop</stopKey>
+                    <stopPort>5599</stopPort>
+
                     <webAppConfig>
                         <contextPath>/${project.artifactId}</contextPath>
                     </webAppConfig>
