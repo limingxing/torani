@@ -5,6 +5,8 @@
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
   <modules>
-  	<module>torani-portal</module>
+      <module>torani-core</module>
+      <module>torani-supplier</module>
+      <module>torani-procurement</module>
   </modules>
 </project>
