@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<decorators defaultdir="/WEB-INF/layouts/">
+    <excludes>
+        <pattern>/assets/*</pattern>
+    </excludes>
+
+    <decorator name="default" page="default-layout.jsp">
+        <pattern>/suppliers*</pattern>
+    </decorator>
+</decorators>

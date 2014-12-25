@@ -1,4 +1,4 @@
-package org.coffeehouse.torani.portal;
+package org.coffeehouse.torani.supplier.portal;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
