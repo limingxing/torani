@@ -47,4 +47,10 @@
             </props>
         </property>
     </bean>
+
+    <bean class="com.mangofactory.swagger.configuration.SpringSwaggerConfig" />
+
+    <context:property-placeholder location="classpath:/swagger.properties" />
+
+    <mvc:resources location="classpath:/swagger-ui/" mapping="/swagger-ui/**" />
 </beans>

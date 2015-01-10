@@ -8,5 +8,4 @@ import java.util.Set;
 public abstract class Order {
     private Long orderId;
     private String orderName;
-    public abstract Set<OrderItem> addOrderItems(OrderItem orderItem);
 }
