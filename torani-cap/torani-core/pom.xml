@@ -2,10 +2,13 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>org.coffeehouse.torani</groupId>
-  <artifactId>torani-core</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  <packaging>jar</packaging>
+    <parent>
+        <artifactId>torani-cap</artifactId>
+        <groupId>org.coffeehouse.torani</groupId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>torani-core</artifactId>
 
   <name>torani-core</name>
   <url>http://maven.apache.org</url>

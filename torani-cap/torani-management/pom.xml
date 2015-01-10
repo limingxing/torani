@@ -11,6 +11,13 @@
     <name>torani-management Maven Webapp</name>
     <url>http://maven.apache.org</url>
 
+    <dependencies>
+        <dependency>
+            <groupId>org.coffeehouse.torani</groupId>
+            <artifactId>torani-core</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
     <build>
         <plugins>
             <plugin>
